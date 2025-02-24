@@ -7,7 +7,6 @@ import { getRanking } from "@/http/api";
 
 export async function Ranking() {
   const { ranking } = await getRanking()
-  console.log(ranking)
 
   return(
     <div className="w-full max-w-[440px] space-y-5">
